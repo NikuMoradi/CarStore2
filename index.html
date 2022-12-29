@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link href="style.css " rel="stylesheet">
+
+    <title>Store</title>
+</head>
+<body>
+<h1>CAR STORE</h1>
+
+<div class="mainContainer">
+
+
+    <!--Form-->
+    <div class="formContainer">
+        <!--labels and inputs -->
+        <div class="labelInputGroup">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Add Name Of The Car">
+        </div>
+
+        <div class="labelInputGroup">
+            <label for="year">Year</label>
+            <input id="year" type="text" placeholder="Add Year Of The Production">
+        </div>
+
+        <div class="labelInputGroup">
+            <label for="price">Price</label>
+            <input id="price" type="text" placeholder="Add Price Of The Car">
+
+        </div>
+        <!--Buttons-->
+        <button id="addBtn">Add Car</button>
+        <button id="dltAllBtn">Delete All</button>
+    </div>
+
+    <!-- Boxes List-->
+    <div class="boxContainer1">
+        <ul class="boxContainer2">
+            <li class="details">
+                <img src="car2.jpg"  width="200" height="200">
+
+                <label class="nameLabel">Rolls-Royce Phantom</label>
+                <label class="yearLabel">2008</label>
+                <label class="priceLabel">$460,000</label>
+
+                <button class="dlt">Delete Item</button>
+                <button class="edit">Edit Item</button>
+
+            </li>
+            <li class="details">
+                <img class="carPhoto" src="car2.jpg"  width="200" height="200">
+
+                <label class="nameLabel">Rolls-Royce Phantom</label>
+                <label class="yearLabel">2008</label>
+                <label class="priceLabel">$460,000</label>
+                <button class="dlt">Delete Item</button>
+                <button class="edit">Edit Item</button>
+
+
+            </li>
+        </ul>
+
+    </div>
+
+
+</div>
+
+
+<script src="js.js"  defer></script>
+<!--<script src="main.js" defer></script>-->
+
+</body>
+</html>
